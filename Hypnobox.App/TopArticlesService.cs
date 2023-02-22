@@ -26,8 +26,6 @@ internal class TopArticlesService
         {
             Console.WriteLine($"Article: {article.ValidTitle}, Comments:{article.Comments}");
         });
-
-        Console.ReadKey();
     }
 
     private async Task<List<Article>> GetAllArticles()
