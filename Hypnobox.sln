@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hypnobox.App", "Hypnobox.App\Hypnobox.App.csproj", "{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-App", "1-App", "{597CC7EB-C80B-4CE6-ACEC-F2EE4F93839C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04E37E0E-95F6-4717-B72C-F6B3AAEDEEE6} = {597CC7EB-C80B-4CE6-ACEC-F2EE4F93839C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90F14717-E53C-4F54-8234-08AE92EE77AC}
+	EndGlobalSection
+EndGlobal
