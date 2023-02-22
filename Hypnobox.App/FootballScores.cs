@@ -13,13 +13,13 @@ internal static class FootballScores
 
     private static void PrintCase(int[] scoreTeamA, int[] scoreTeamB)
     {
-
         var teamA = new Team(scoreTeamA.Select(x => new Score(x)).ToList());
         var teamB = new Team(scoreTeamB.Select(x => new Score(x)).ToList());
         var result = teamB.CompareTeam(teamA);
         Console.WriteLine(string.Join(",", result));
     }
 }
+
 public record struct Score(int Goals);
 public record Team(List<Score> Scores)
 {

@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+
 using Hypnobox.App.Repositories.ArticlesRepositories.Dtos;
 
 namespace Hypnobox.App.Repositories.ArticlesRepositories;
@@ -13,7 +14,7 @@ internal class ArticlesRepository : IArticlesRepository
         _httpClient = httpClient;
     }
 
-    public Task<TopArticlesApiDto> GetPagedAsync(int page)
+    public Task<TopArticlesApiDto?> GetPagedAsync(int page)
         => _httpClient.GetFromJsonAsync<TopArticlesApiDto>(string.Format(URL, page));
 
 }

@@ -12,7 +12,7 @@ internal static class ArticleMapper
         }
     }
 
-    internal static Article From(ArticleDto dto) => new Article
+    internal static Article From(ArticleDto dto) => new()
     {
         Title = dto.title,
         StoreTitle = dto.store_title,
